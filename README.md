@@ -12,7 +12,7 @@ Welcome to Confess Your Feelings, a unique web portal designed to help you expre
 
 📩 Instant Delivery – Share your confession with just a click.
 
-📷 Preview
+📷 Preview - https://subhadipshil.github.io/Confess-Your-Love/
 
 Showcase some screenshots or a demo GIF of your project here.
 
