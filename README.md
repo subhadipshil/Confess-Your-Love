@@ -29,7 +29,7 @@ Hosting: Vercel / Netlify / Heroku (mention if used)
 📦 Installation & Setup
 
 # Clone the repository
-git clone 
+git clone https://github.com/subhadipshil/Confess-Your-Love.git
 # Navigate to the project directory
 cd confess-your-feelings
 
