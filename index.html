@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message For You ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="music-prompt" class="music-prompt">
+        <p>Would you like some background music? 🎵</p>
+        <button onclick="handleMusic(true)" class="music-btn">Yes</button>
+        <button onclick="handleMusic(false)" class="music-btn">No</button>
+    </div>
+    <div id="music-control" class="music-control" style="display: none;">
+        <div class="volume-control">
+            <input type="range" id="volumeSlider" min="0" max="100" value="50" class="volume-slider">
+        </div>
+        <button onclick="toggleMusic()" class="music-toggle">
+            <i class="fas fa-music"></i>
+        </button>
+    </div>
+    <audio id="bgMusic" src="assets/background-music.mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+        <h1>Hey Cutie! ��</h1>
+        <p>Do you want to know what I think about you?</p>
+        <div id="no-messages" class="no-messages"></div>
+        <button class="btn yes-btn" onclick="showMessage()">Yes</button>
+        <button class="btn no-btn" onclick="moveButton(this)">No</button>
+        <div id="gif-container" style="display: none;">
+            <img src="https://tenor.com/view/mimibubu-gif-22393643.gif" alt="Cute Bears Hugging" class="cute-gif">
+        </div>
+        <p id="message" class="message">
+            You're the most amazing person I've ever met! Will you be mine? 🥰
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
